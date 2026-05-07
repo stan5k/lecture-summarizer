@@ -13,7 +13,8 @@ affects summary quality across diverse lecture domains.
 
 ## Dataset
 
-The [ccdv/arxiv-summarization](https://huggingface.co/datasets/ccdv/arxiv-summarization) is a text database with over 200k entries of abstract-article pairs. 
+The [ccdv/arxiv-summarization](https://huggingface.co/datasets/ccdv/arxiv-summarization) is a text database with over 200k entries of
+abstract-article pairs. Of that dataset, a randomized subset (5k abstract-article pairs) was used as training data. 
 
 ## Approach
 
