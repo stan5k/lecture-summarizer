@@ -14,9 +14,17 @@ affects summary quality across diverse lecture domains.
 ## Dataset
 
 The [ccdv/arxiv-summarization](https://huggingface.co/datasets/ccdv/arxiv-summarization) is a text database with over 200k entries of
-abstract-article pairs. Of that dataset, a randomized subset (5k abstract-article pairs) was used as training data. 
+abstract-article pairs. Of that dataset, a randomized subset (5k abstract-article pairs) was used as training data.
+The data was cleaned by removing outliers such as those entries that had abstract with the value '0'. The data was
+additionally filtered. When comparing the number of words in the article to that of the abstract, entries were excluded where the 
+number of words in the abstract divided by the number of words in the article was over 0.3. At the end of the
+data preparation pipeline, the outliers accounted for <3% of the traning subset.
 
-## Approach
+Note: The size of the traning data (i.e. ~5k filtered examples)is small when compared to the
+size of the data that was available (~200k). This is a noted limitation and covered in future
+work.
+
+## Methodology
 
 We compare three model configurations on three educational lectures
 (Machine Learning, History, Psychology):
@@ -28,7 +36,7 @@ We compare three model configurations on three educational lectures
 Inputs are YouTube lecture transcripts retrieved via `youtube-transcript-api`.
 Long transcripts are processed via overlapping chunking and concatenation.
 
-## Key findings
+## Results
 
 - **Precision-recall trade-off**: BART produces concise summaries with high
   precision but lower content coverage. Fine-tuned T5 produces verbose
