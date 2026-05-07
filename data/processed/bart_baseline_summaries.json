@@ -1,0 +1,87 @@
+{
+  "ml_neural_network": {
+    "lecture_metadata": {
+      "id": "ml_neural_network",
+      "title": "But what is a neural network? (3Blue1Brown)",
+      "url": "https://www.youtube.com/watch?v=aircAruvnKk",
+      "domain": "Machine Learning",
+      "length_min": 18.65
+    },
+    "model": "facebook/bart-large-cnn",
+    "config": {
+      "max_chunk_tokens": 1000,
+      "overlap_tokens": 50,
+      "max_summary_length": 150,
+      "min_summary_length": 40,
+      "num_beams": 4
+    },
+    "n_chunks": 5,
+    "chunk_summaries": [
+      "A neural network can learn to recognize handwritten digits. It's meant to be loosely analogous to how networks in biological networks work. This video is just going to be devoted to the structure component of that. The following one is going to tackle learning.",
+      "The network I'm showing here has already been trained to recognize digits. It means if you feed in an image, lighting up all 784 neurons of the input layer according to the brightness of each pixel in the image, that pattern of activations causes some very specific pattern in the next layer. And the brightest neuron of that output layer is the network's choice, so to speak, for what digit this image represents.",
+      "The network has almost exactly 13,000 total weights and biases. Each one of those 784 connections has its own weight associated with it. The weights tell you what pixel pattern this neuron in the second layer is picking up on. The bias tells you how high the weighted sum needs to be.",
+      "The ReLU network is a deep neural network that can recognize digits. It uses a complex system of weights and biases to pick up on patterns in data. In the next video we'll see how this network learns the appropriate weights and bias just by looking at data. We'll also dig a little more into what this particular network is really doing.",
+      "Right. right thank you Lisha. Lisha, thank you for your kind words and support. I am so happy to have you on my team. I love you all so much. I hope to see you soon."
+    ],
+    "full_summary": "A neural network can learn to recognize handwritten digits. It's meant to be loosely analogous to how networks in biological networks work. This video is just going to be devoted to the structure component of that. The following one is going to tackle learning. The network I'm showing here has already been trained to recognize digits. It means if you feed in an image, lighting up all 784 neurons of the input layer according to the brightness of each pixel in the image, that pattern of activations causes some very specific pattern in the next layer. And the brightest neuron of that output layer is the network's choice, so to speak, for what digit this image represents. The network has almost exactly 13,000 total weights and biases. Each one of those 784 connections has its own weight associated with it. The weights tell you what pixel pattern this neuron in the second layer is picking up on. The bias tells you how high the weighted sum needs to be. The ReLU network is a deep neural network that can recognize digits. It uses a complex system of weights and biases to pick up on patterns in data. In the next video we'll see how this network learns the appropriate weights and bias just by looking at data. We'll also dig a little more into what this particular network is really doing. Right. right thank you Lisha. Lisha, thank you for your kind words and support. I am so happy to have you on my team. I love you all so much. I hope to see you soon.",
+    "summary_word_count": 267,
+    "timestamp": "2026-05-07T00:25:24.074766"
+  },
+  "history_neoliberalism": {
+    "lecture_metadata": {
+      "id": "history_neoliberalism",
+      "title": "Neoliberalism and the End of History - Part 3",
+      "url": "https://www.youtube.com/watch?v=oIp0_rAEMIs",
+      "domain": "History",
+      "length_min": 15.1
+    },
+    "model": "facebook/bart-large-cnn",
+    "config": {
+      "max_chunk_tokens": 1000,
+      "overlap_tokens": 50,
+      "max_summary_length": 150,
+      "min_summary_length": 40,
+      "num_beams": 4
+    },
+    "n_chunks": 3,
+    "chunk_summaries": [
+      "Noam Chomsky: Racism grew partly out of the Enlightenment. He says the racism that's surfacing is in considerable measure a reaction to the neoliberal policies of the last generation. Chomsky: The people who are suffering the most from these neoliberal policies are the ones who most support them.",
+      "David Frum: The way people see the world is based on the image of people standing in a line. He says the problem is the people behind us, who don't want to work, who are worthless. Frum says a well-designed doctrinal system, propaganda system can focus your attention on that.",
+      "In Haiti now, when you look at, say, the politics there, you can see how based on the way you speak, what you say is being discarded. If you shoot any creole phonemic pattern in your French, then you're discarded. In the US, there was this famous case of Rachel Jeantel, when she was testifying in the trial of Zimmerman."
+    ],
+    "full_summary": "Noam Chomsky: Racism grew partly out of the Enlightenment. He says the racism that's surfacing is in considerable measure a reaction to the neoliberal policies of the last generation. Chomsky: The people who are suffering the most from these neoliberal policies are the ones who most support them. David Frum: The way people see the world is based on the image of people standing in a line. He says the problem is the people behind us, who don't want to work, who are worthless. Frum says a well-designed doctrinal system, propaganda system can focus your attention on that. In Haiti now, when you look at, say, the politics there, you can see how based on the way you speak, what you say is being discarded. If you shoot any creole phonemic pattern in your French, then you're discarded. In the US, there was this famous case of Rachel Jeantel, when she was testifying in the trial of Zimmerman.",
+    "summary_word_count": 158,
+    "timestamp": "2026-05-07T00:25:27.625983"
+  },
+  "psych_wellbeing": {
+    "lecture_metadata": {
+      "id": "psych_wellbeing",
+      "title": "Why Having More Doesn't Make You Happier (Science of Well-Being)",
+      "url": "https://www.youtube.com/watch?v=_5qGVpy4-mc",
+      "domain": "Psychology",
+      "length_min": 26.57
+    },
+    "model": "facebook/bart-large-cnn",
+    "config": {
+      "max_chunk_tokens": 1000,
+      "overlap_tokens": 50,
+      "max_summary_length": 150,
+      "min_summary_length": 40,
+      "num_beams": 4
+    },
+    "n_chunks": 8,
+    "chunk_summaries": [
+      "The mind doesn't think in terms of absolutes. Instead, we think in these very relative terms, and we're constantly judging relative to what I'm going to call a reference point. There's a really cool illusion in vision that some of you may have seen that involves such reference points. The question is, do we see these kinds of reference points messing up our happiness judgments?",
+      "CNN's John Sutter looks at what makes people happy. He says it's not your absolute level or the absolute medal you got. It's what you think you could have gotten, he says. Sutter: Our idea of a good job is not done in absolute terms.",
+      "Psychologists say we care a lot about where we stand relative to other people, even more than our own absolute level. As your income is less than the other people in your firm, if you feel like you're making less, you like your job actually less. This also explains why earning less causes so much hardship.",
+      "Economists Ogen and Shrum looked at whether people who were exposed to crazier and crazier reference points, more unrealistic standards of salaries and incomes actually got messed up. They found that in fact it does. As you go up in your TV watching, you also go down in your estimate of your own wealth relative to others.",
+      "You're almost twice as likely to buy a new car yourself if you live next to a person who won the lottery than you are if you're just kind of in a control case. It's kind of like just seeing the new car in the other person's lot makes you want it so bad that you buy this car that you probably don't even need. And that can also lead to these insidious spiteful sorts of behaviors visav other people's grades.",
+      "Yale students considered giving everyone a 50% chance of going up a grade. But 41% of students rejected the plan, saying, \"We don't want our class to be able to do this\"",
+      "Vogle and colleagues looked at Facebook and how much looking at your social comparisons on Facebook improves or messes up your own self-esteem. They found that there's a pretty high correlation between Facebook use and self- esteem. The more Facebook use you have, the lower yourSelf-esteem is.",
+      "When you're making downward social comparisons, the weird thing is you don't get that same bump for yourself. So if you're looking at the losery people, you might think you kind of bump up your own perception of yourself. You don't. The only thing you get is a bad effect when you'reLooking upwards."
+    ],
+    "full_summary": "The mind doesn't think in terms of absolutes. Instead, we think in these very relative terms, and we're constantly judging relative to what I'm going to call a reference point. There's a really cool illusion in vision that some of you may have seen that involves such reference points. The question is, do we see these kinds of reference points messing up our happiness judgments? CNN's John Sutter looks at what makes people happy. He says it's not your absolute level or the absolute medal you got. It's what you think you could have gotten, he says. Sutter: Our idea of a good job is not done in absolute terms. Psychologists say we care a lot about where we stand relative to other people, even more than our own absolute level. As your income is less than the other people in your firm, if you feel like you're making less, you like your job actually less. This also explains why earning less causes so much hardship. Economists Ogen and Shrum looked at whether people who were exposed to crazier and crazier reference points, more unrealistic standards of salaries and incomes actually got messed up. They found that in fact it does. As you go up in your TV watching, you also go down in your estimate of your own wealth relative to others. You're almost twice as likely to buy a new car yourself if you live next to a person who won the lottery than you are if you're just kind of in a control case. It's kind of like just seeing the new car in the other person's lot makes you want it so bad that you buy this car that you probably don't even need. And that can also lead to these insidious spiteful sorts of behaviors visav other people's grades. Yale students considered giving everyone a 50% chance of going up a grade. But 41% of students rejected the plan, saying, \"We don't want our class to be able to do this\" Vogle and colleagues looked at Facebook and how much looking at your social comparisons on Facebook improves or messes up your own self-esteem. They found that there's a pretty high correlation between Facebook use and self- esteem. The more Facebook use you have, the lower yourSelf-esteem is. When you're making downward social comparisons, the weird thing is you don't get that same bump for yourself. So if you're looking at the losery people, you might think you kind of bump up your own perception of yourself. You don't. The only thing you get is a bad effect when you'reLooking upwards.",
+    "summary_word_count": 436,
+    "timestamp": "2026-05-07T00:25:37.253736"
+  }
+}

@@ -1,0 +1,10 @@
+lecture,domain,model,bert_precision,bert_recall,bert_f1
+ml_neural_network,Machine Learning,BART-large-CNN,-0.4039573073387146,-0.36983156204223633,-0.38470393419265747
+ml_neural_network,Machine Learning,T5-base (baseline),-0.598782479763031,-0.39414089918136597,-0.496379017829895
+ml_neural_network,Machine Learning,T5-base (fine-tuned),-0.5888849496841431,-0.38450828194618225,-0.4866190552711487
+history_neoliberalism,History,BART-large-CNN,-0.3373431861400604,-0.3507806658744812,-0.34188833832740784
+history_neoliberalism,History,T5-base (baseline),-0.5913063287734985,-0.4539429545402527,-0.5212144255638123
+history_neoliberalism,History,T5-base (fine-tuned),-0.5360242128372192,-0.3035704791545868,-0.4204714596271515
+psych_wellbeing,Psychology,BART-large-CNN,-0.5446372628211975,-0.40375444293022156,-0.4729071855545044
+psych_wellbeing,Psychology,T5-base (baseline),-0.6414587497711182,-0.37861594557762146,-0.5114738941192627
+psych_wellbeing,Psychology,T5-base (fine-tuned),-0.5751449465751648,-0.35335081815719604,-0.46460893750190735

@@ -1,0 +1,10 @@
+Lecture,Domain,Model,Words,R1-P,R1-R,R1-F1
+ml_neural_network,Machine Learning,BART-large-CNN,267,0.337,0.492,0.4
+ml_neural_network,Machine Learning,T5-base baseline,641,0.207,0.679,0.318
+ml_neural_network,Machine Learning,T5-base fine-tuned,987,0.207,0.679,0.318
+history_neoliberalism,History,BART-large-CNN,158,0.327,0.314,0.32
+history_neoliberalism,History,T5-base baseline,428,0.182,0.45,0.259
+history_neoliberalism,History,T5-base fine-tuned,639,0.182,0.45,0.259
+psych_wellbeing,Psychology,BART-large-CNN,436,0.196,0.511,0.283
+psych_wellbeing,Psychology,T5-base baseline,1130,0.086,0.551,0.149
+psych_wellbeing,Psychology,T5-base fine-tuned,1772,0.086,0.551,0.149

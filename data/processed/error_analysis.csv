@@ -1,0 +1,4 @@
+Model,Hallucinations,arXiv artifacts,Repetition,Boilerplate fixation,Avg word count
+BART-large-CNN,1,0,0,0,287
+T5-base (baseline),3,0,3,0,733
+T5-base (fine-tuned),0,0,3,1,1132

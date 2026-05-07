@@ -1,0 +1,19 @@
+# Models
+models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# HF cache
+hf_cache/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+.env

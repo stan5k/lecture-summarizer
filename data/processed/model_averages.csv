@@ -1,0 +1,4 @@
+Model,Output words,ROUGE-1 P,ROUGE-1 R,ROUGE-1 F1,ROUGE-L F1,BERT-F1
+BART-large-CNN,287.0,0.287,0.439,0.334,0.178,0.764
+T5-base (baseline),733.0,0.158,0.56,0.242,0.109,0.745
+T5-base (fine-tuned),1132.667,0.104,0.591,0.174,0.091,0.754
