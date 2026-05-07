@@ -3,13 +3,17 @@
 A capstone project comparing pre-trained and fine-tuned summarization models
 on educational lecture content across multiple academic domains.
 
-## Problem
+## Problem Statement
 
-State-of-the-art abstractive summarization models (BART, T5) are trained
-primarily on news articles. Educational lectures differ from this
-distribution in technical terminology, length, structure, and conceptual
+Some of the leading summarization models (BART, T5) are trained
+from a large corpus of data which include new articles. Educational lectures differ from this
+distribution in terms of technical terminology, length, structure, and conceptual
 density. This project characterizes how fine-tuning T5 on academic content
 affects summary quality across diverse lecture domains.
+
+## Dataset
+
+The `ccdv/arxiv-summarization`<https://huggingface.co/datasets/ccdv/arxiv-summarization>
 
 ## Approach
 
@@ -17,7 +21,7 @@ We compare three model configurations on three educational lectures
 (Machine Learning, History, Psychology):
 1. **BART-large-CNN** — domain-tuned baseline (news summarization)
 2. **T5-base** — general-purpose multi-task baseline
-3. **T5-base fine-tuned** — same model fine-tuned on `ccdv/arxiv-summarization`
+3. **T5-base fine-tuned** — same model fine-tuned with 
    (3 epochs, lr=1e-4, ~5K filtered examples)
 
 Inputs are YouTube lecture transcripts retrieved via `youtube-transcript-api`.
