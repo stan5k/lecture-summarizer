@@ -89,3 +89,21 @@ General Assembly
 - Pre-trained models: `facebook/bart-large-cnn`, `google-t5/t5-base`
 - Lecture sources: 3Blue1Brown (YouTube), MIT OpenCourseWare,
   Yale Online (Science of Well-Being)
+
+
+## Running the demo locally
+
+```bash
+pip install -r requirements.txt
+python app.py
+```
+
+Gradio will print a local URL (typically http://127.0.0.1:7860) and a temporary public URL valid for 72 hours.
+
+### Two demo modes
+
+**Pre-computed mode** (Pre-computed Summaries tab): instant display of summaries already generated for our three demo lectures. Response time <1 second.
+
+**Live mode** (Try Your Own URL tab): paste any YouTube URL with auto-generated captions. Takes 1-3 minutes depending on lecture length. First run loads the model (~30 seconds extra).
+
+> **Note**: Live mode requires the fine-tuned model files at `models/t5_finetuned_v2_final/`. These are not included in the repository due to size. To regenerate them, run `notebooks/03_experiments.ipynb`.
