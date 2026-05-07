@@ -1,4 +1,4 @@
 lecture_id,domain,input_words,bart_summary_words,bart_chunks,bart_compression_ratio,t5_summary_words,t5_chunks,t5_compression_ratio,t5_vs_bart_length_factor
-ml_neural_network,Machine Learning,3357,267,5,0.0795,641,12,0.1909,2.4
-history_neoliberalism,History,2057,158,3,0.0768,428,8,0.2081,2.71
-psych_wellbeing,Psychology,5857,436,8,0.0744,1130,21,0.1929,2.59
+ml_neural_network,machine_learning,3357,267,5,0.0795,641,12,0.1909,2.4
+history_neoliberalism,history,2057,158,3,0.0768,428,8,0.2081,2.71
+psych_wellbeing,psychology,5857,436,8,0.0744,1130,21,0.1929,2.59
