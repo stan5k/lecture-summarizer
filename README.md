@@ -13,7 +13,7 @@ affects summary quality across diverse lecture domains.
 
 ## Dataset
 
-The `ccdv/arxiv-summarization`<https://huggingface.co/datasets/ccdv/arxiv-summarization>
+The [ccdv/arxiv-summarization](https://huggingface.co/datasets/ccdv/arxiv-summarization) is a text database with over 200k entries of abstract-article pairs. 
 
 ## Approach
 
@@ -21,7 +21,7 @@ We compare three model configurations on three educational lectures
 (Machine Learning, History, Psychology):
 1. **BART-large-CNN** — domain-tuned baseline (news summarization)
 2. **T5-base** — general-purpose multi-task baseline
-3. **T5-base fine-tuned** — same model fine-tuned with 
+3. **T5-base fine-tuned** — same model, but fine-tuned with ccdv/arxiv-summarization
    (3 epochs, lr=1e-4, ~5K filtered examples)
 
 Inputs are YouTube lecture transcripts retrieved via `youtube-transcript-api`.
