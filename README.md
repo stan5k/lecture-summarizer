@@ -31,7 +31,7 @@ We compare three model configurations on three educational lectures
 1. **BART-large-CNN** — domain-tuned baseline (news summarization)
 2. **T5-base** — general-purpose multi-task baseline
 3. **T5-base fine-tuned** — same model, but fine-tuned with ccdv/arxiv-summarization
-   (3 epochs, lr=1e-4, ~5K filtered examples)
+   (3 epochs, lr=1e-4, ~5K filtered examples) --> located [here]('https://drive.google.com/file/d/1n3CHzND1BRMAwcpSKgFVSqspAothKu9N/view?usp=share_link')
 
 Inputs are YouTube lecture transcripts retrieved via `youtube-transcript-api`.
 Long transcripts are processed via overlapping chunking and concatenation.
